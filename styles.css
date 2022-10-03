@@ -1,0 +1,48 @@
+body {
+
+background-color: bisque;
+}
+div {
+    width: 800px;
+    background-color: #fff;
+    margin-left: calc((100% - 800px) / 2);
+    padding-bottom: 5%;
+    border-radius: 3%;
+}
+h1, header > p {
+    display: inline-block;
+    margin-top: 5%;
+}
+header > p {
+    margin-right: 3%;
+}
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    width: 45%;
+}
+header, main {
+    margin-left: 7%;
+}
+img {
+    float:right;
+    margin-right: 8%;
+    margin-top: -10%;
+    width: 45%;
+}
+h2 {
+    font-size: 35px;
+    width: 25%;
+    margin-top: 15%;
+}
+button {
+    border-radius: 24px;
+    background-color:blueviolet;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px;
+}
+main p {
+    width: 35%;
+    margin-bottom: 5%;
+}
