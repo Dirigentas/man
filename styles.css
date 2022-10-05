@@ -24,7 +24,7 @@ h1 {
 header, main {
     margin-left: 7%;
 }
-img {
+main > img {
     float:right;
     margin-right: 8%;
     margin-top: -10%;
