@@ -1,48 +1,33 @@
 body {
-
 background-color: bisque;
 }
-div {
+.container {
     width: 800px;
     background-color: #fff;
     margin-left: calc((100% - 800px) / 2);
-    padding-bottom: 5%;
-    border-radius: 3%;
-}
-h1, header > p {
     display: inline-block;
-    margin-top: 5%;
 }
-header > p {
-    margin-right: 3%;
+
+/*Header*/
+
+.logo {
+    float: left;
+    height: 15px;
 }
-h1 {
-    font-size: 20px;
-    font-weight: normal;
-    width: 45%;
+.meniu {
+    float: right;
 }
-header, main {
-    margin-left: 7%;
+.meniu > .link {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
 }
-main > img {
-    float:right;
-    margin-right: 8%;
-    margin-top: -10%;
-    width: 45%;
+
+/* MAIN */
+
+.left-column {
+    float: left;
 }
-h2 {
-    font-size: 35px;
-    width: 25%;
-    margin-top: 15%;
-}
-button {
-    border-radius: 24px;
-    background-color:blueviolet;
-    color: #fff;
-    font-weight: bold;
-    padding: 7px;
-}
-main p {
-    width: 35%;
-    margin-bottom: 5%;
+.right-column {
+    float: right;
 }
